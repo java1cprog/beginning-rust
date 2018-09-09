@@ -1,5 +1,6 @@
 /* It prints:
 Error n. 1200 in module X*/
+#[allow(dead_code)]
 fn main() {
     enum Result {
         Success(f64),
