@@ -1,5 +1,6 @@
 /* It prints:
 -1 49 4.7 7 12000 */
+#[allow(dead_code)]
 fn main() {
     enum E { E1, E2 }
     struct S { a: i32, b: bool }
