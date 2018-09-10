@@ -2,4 +2,7 @@
 fn main() {
     fn f1(x: i32) {}
     fn f2(x: i32) -> () {}
+    
+    println!("{:?}",f1(0));
+    println!("{:?}",f2(0));
 }
