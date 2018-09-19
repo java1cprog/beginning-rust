@@ -1,7 +1,7 @@
 // It does nothing.
 fn main() {
     fn f1(x1: i32) {
-        let y1 = 2 + x1;
+        let _y1 = 2 + x1;
     }
     fn f2(x2: i32) {
         f1(x2 + 7);
