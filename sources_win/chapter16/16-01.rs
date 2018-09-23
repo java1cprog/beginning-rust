@@ -13,7 +13,8 @@
 */
 fn main() {
     let s = "abc012è€";
-    for i in 0..s.len() {
-        println!("{}: {}", i, s.as_bytes()[i]);
+    let array = s.as_bytes();
+    for i in 0..array.len() {
+        println!("{}: {}", i, array[i]);
     }
 }
