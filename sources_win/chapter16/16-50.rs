@@ -1,4 +1,5 @@
 // It does nothing.
+#[allow(unused_must_use)]
 fn main() {
     [66, -8, 43, 19, 0, -31]
         .iter()
